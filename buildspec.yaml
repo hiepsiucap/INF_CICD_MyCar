@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo "Running cfn-lint..."
-      - cfn-lint bt1.yaml
+      - cfn-lint infrastructure.yaml
   build:
     commands:
       - echo "Running taskcat tests..."
